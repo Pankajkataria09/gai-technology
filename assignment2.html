@@ -1,0 +1,121 @@
+<!doctype html>
+	<!DOCTYPE html>
+	<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" type="text/css" href="C:\Users\Dell\Desktop\portfoli\index\assignment2.css"
+		<title>signup</title>
+	</head>
+	<body>
+		<section class="main-section">
+			<div class="left-portion">
+			<div>
+				<img src="C:\Users\Dell\Downloads\google.png">
+			</div>
+
+			<div>
+				<p class="heading">Create your google account</p>
+			</div>
+
+			<div>
+				<small><p class="para">to continue to gmail</p></small>
+			</div>
+
+			<div class="first-field">
+				<span>
+					<input type="text" placeholder="First name" class="field1">
+				</span>
+
+				<span>
+					<input type="text" placeholder="Last name" class="field2">
+				</span>
+			</div>
+
+			<div class="second-field">
+				<input type="text" placeholder="Username">
+			</div>
+
+			<div class="text1">You can use letters,numbers & periods</div>
+
+			<div class="third-field">
+				<span>
+					<input type="text" placeholder="Password" class="field1">
+				</span>
+
+				<span>
+					<input type="text" placeholder="Confirm" class="field2">
+				</span>
+			</div>
+
+			<div class="text1">Use 8 or more characters with a mix of letters, numbers & symbols</div>
+			
+			<div class="fourth-field">
+				<input type="checkbox" name="showpassword" id="showpassword">
+				<label for="showpassword">Show password</label>
+			</div>
+
+			<div class="fifth-field">
+				<span><a href="#">Sign in instead</a></span>
+				<span><button>Next</button></span>
+
+			</div>
+			</div>
+			<div class="right-portion">
+				<img src="https://ssl.gstatic.com/accounts/signup/glif/account.svg">
+				<div class="right-text">One account. All of Google working for you.</div>
+			</div>
+		</section>
+
+		<footer>
+			<ul class="lastfield1">
+				<li><a href="#">English(United states)</a></li>
+			</ul>
+
+					<ul class="lastfield2">
+					<li class="lastline"><a href="#">Help</a></li>
+					<li class="lastline"><a href="#">Privacy</a></li>
+					<li class="lastline"><a href="#">Term</a></li>
+			</ul>
+		</footer>
+	
+	</body>
+	<script >
+		function validate(){
+			var x =document.forms ["nextform"]["name"].value;
+			var y =document.forms ["nextform"]["email"].value;
+			var z =document.forms ["nextform"]["password"].value;
+			var x_error=document.getElementById('x_error');
+			var y_error=document.getElementById('y_error');
+			var z_error=document.getElementById('z_error');
+
+			       if(x =="" && y == "" && z == "")
+			       {
+			        	x_error.style.visibility="visible";
+			       	    y_error.style.visibility="visible";
+			       		z_error.style.visibility="visible";
+			       }
+			       if else(y == null || y == ""){
+			       	alert("enter first name");
+			       	return false;
+			       }
+			       if else(z == null || z == ""){
+			       	alert("enter first name");
+			       	return false;
+			       }
+			       if else(a == null || a == "" || a == NaN){
+			       	alert("enter first name")
+			       	return false;
+			       }
+			       if else(b == null || b == ""){
+			       	alert("enter first name");
+			       	return false;
+			       }
+			       if else(c == null || c == ""){
+			       	alert("fill box");
+			       	return false;
+
+			       }
+		}
+	</script>
+	</html>
